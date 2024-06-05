@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professzionális tetőfedő szolgáltatások, kiváló referenciákkal és gyors árajánlatkéréssel.">
+    <meta name="keywords" content="tetőfedés, ács, tetőjavítás, árajánlat, tetőfedő vállalkozás">
+    <meta property="og:title" content="Tetőfedő Vállalkozás">
+    <meta property="og:description" content="Professzionális tetőfedő szolgáltatások, kiváló referenciákkal és gyors árajánlatkéréssel.">
+    <meta property="og:image" content="path/to/logo.png">
+    <meta property="og:url" content="http://www.tetofedo-vallalkozas.hu">
+    <title>Tetőfedő Vállalkozás</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header img {
+            width: 150px;
+            height: auto;
+        }
+        header h1 {
+            margin: 10px 0;
+            color: #009688;
+        }
+        header p {
+            font-style: italic;
+            color: #555;
+        }
+        nav {
+            background-color: #004d40;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            text-align: center;
+            color: #009688;
+            margin-bottom: 20px;
+        }
+        .about img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery a {
+            margin: 10px;
+            flex: 1 1 300px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form label {
+            margin: 10px 0 5px;
+            width: 100%;
+            max-width: 600px;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #009688;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #00796b;
+        }
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p, footer a {
+            color: #fff;
+        }
+        .social-media a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path/to/logo.png" alt="Tetőfedő Vállalkozás Logó">
+        <h1>Tetőfedő Vállalkozás</h1>
+        <p>"Megbízható megoldások a tetőjén"</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#rolunk">Rólunk</a></li>
+            <li><a href="#referenciak">Referenciák</a></li>
+            <li><a href="#kapcsolat">Kapcsolat</a></li>
+            <li><a href="#arajanlat">Árajánlatkérés</a></li>
+        </ul>
+    </nav>
+    <section id="rolunk" class="container about">
+        <h2>Rólunk</h2>
+        <p>Cégünk több évtizedes tapasztalattal rendelkezik a tetőfedés területén. Szakértő csapatunk professzionális és megbízható megoldásokat nyújt minden tetőfedési igényre.</p>
+        <img src="path/to/team.jpg" alt="Csapatunk">
+    </section>
+    <section id="referenciak" class="container">
+        <h2>Referenciák</h2>
+        <div class="gallery">
+            <a href="path/to/project1_large.jpg" data-lightbox="projects"><img src="path/to/project1_small.jpg" alt="Projekt 1"></a>
+            <a href="path/to/project2_large.jpg" data-lightbox="projects"><img src="path/to/project2_small.jpg" alt="Projekt 2"></a>
+            <a href="path/to/project3_large.jpg" data-lightbox="projects"><img src="path/to/project3_small.jpg" alt="Projekt 3"></a>
+        </div>
+    </section>
+    <section id="kapcsolat" class="container">
+        <h2>Kapcsolat</h2>
+        <form id="contact-form">
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Üzenet:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Üzenet küldése</button>
+        </form>
+    </section>
+    <section id="arajanlat" class="container">
+        <h2>Árajánlatkérés</h2>
+        <form id="quote-form">
+            <label for="project-details">Projekt részletei:</label>
+            <textarea id="project-details" name="project-details" required></textarea>
+            <label for="budget">Költségvetés:</label>
+            <input type="number" id="budget" name="budget" required>
+            <label for="deadline">Határidő:</label>
+            <input type="date" id="deadline" name="deadline" required>
+            <button type="submit">Árajánlat kérése</button>
+        </form>
+    </section>
+    <footer>
+        <p>Telefonszám: <a href="tel:+36204728935">+36 20 472 8935</a></p>
+        <p>Email: <a href="mailto:info@tetofedo-vallalkozas.hu">info@tetofedo-vallalkozas.hu</a></p>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="path/to/facebook-icon.svg" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="path/to/twitter-icon.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="path/to/instagram-icon.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Üzenet elküldve!');
+        });
+
+        document.getElementById('quote-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Árajánlatkérés elküldve!');
+        });
+    </script>
+</body>
+</html>
